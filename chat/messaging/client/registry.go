@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	websocket "github.com/howtv/gsskt_backend/pkg/dep/sources/https---github.com-gorilla-websocket"
+	"github.com/gorilla/websocket"
 )
 
 type clientRegistry struct {
